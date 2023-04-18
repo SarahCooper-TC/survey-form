@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", intial-scale="1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Animal Survey Form</h1> 
+    <p id="description">Please fill out this survey below.
+    </p><br>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="John Smith" required><br><br>
+    <label for="email-label" id="email-label">Email: <input type="email" id="email" placeholder="Johnsmith@email.com" required><br><br>
+    <label for="number" id="number-label">Phone: <input type="number" id="number" min="12" max="12" placeholder="999-999-9999"><br><br><br>
+    Gender: <select name="Gender" id="dropdown">
+      <option value="--select--">--select--</option>
+      <option value="Male">Male </option>
+      <option value="Female">Female</option>
+      <option value="Prefer not to say">Prefer not to say</option><br><br>
+    <div>
+      <input type="radio" id="student" name="student" value="student" checked>
+      <label for="student">student</label>
+      <input type="radio" id="non-student" name="student" value="non-student">
+      <label for="non-student">non-student</label>
+    </div>
+<br><br>Pick Your Favorite Animal: <br>
+<input type="checkbox" id="animal1" value="Cat" name="Cat" checked>
+<label for="animal1">Cat</label><br>
+<input type="checkbox" id="Animal2" value="Dog" name="animal">
+          <label for="animal2">Dog</label><br>
+          <input type="checkbox" id="Animal3" value="Bird" name="animal">
+          <label for="animal3">Bird</label><br><br>   <textarea id="additional comments" name="additional comments" rows="10" cols="30" placeholder="Enter additional comments here"></textarea><br><br>
+<input type="submit" name="submit" id="submit" value="submit">
+  </form>
+  </body>
+  </html>

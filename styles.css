@@ -1,0 +1,20 @@
+h1 {
+  font-family:
+  cursive;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body { text-align:center;
+  width: 100%;
+  border-style: dotted;
+  border-color: red;
+}
+p {
+  font-weight: bold;
+  font-size: 10px;
+}
+html {
+  background-color: blue;
+  color: white;
+}
